@@ -1,5 +1,6 @@
-const Gen1 = () => {
-    return <h1>Gen 1</h1>;
-  };
-  
-  export default Gen1;
+/* eslint-disable react/prop-types */
+const Gen1 = ({title}) => {
+    return <h5>{title}</h5>;
+};
+
+export default Gen1
